@@ -44,7 +44,7 @@ nav h1 {
 }
 
 .board {
-  width: 450px;
+  width: 400px;
   height: 550px;
   border: 1px solid black;
   display: flex;
@@ -55,13 +55,13 @@ nav h1 {
   flex: 33%;
   display: flex;
   flex-direction: row;
-  margin: 5px;
+  margin: 8px;
 }
 
 .letter {
   flex: 33%;
   height: 100%;
-  border: 1px solid grey;
+  border: 3px solid#3a3a3b;
   margin: 5px;
   display: grid;
   place-items: center;
@@ -127,7 +127,7 @@ nav h1 {
 }
 
 #big {
-  width: 100px;
+  width: 82px;
 }
 #disabled {
   background-color: #3a393c;
